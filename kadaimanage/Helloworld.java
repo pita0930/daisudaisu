@@ -2,9 +2,13 @@ import java.util.Random;
 
 public class Helloworld{
 
-    Random rnd = new Random();
-    int random1 = rnd.nextInt(5);
     public static void main(String[] args){
+        
+        System.out.println("What is your name?");
+        Scanner scanner = new Scanner(System.in);
+        String input_txt = scanner.next();
+        System.out.println("Hello, " + input_txt + "!");
+
         Random rnd = new Random();
         System.out.println("Rolling the dice....");
 
