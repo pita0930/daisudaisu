@@ -1,7 +1,14 @@
 import java.util.*;
 
 public class Helloworld{
+
     public static void main(String[] args){
+        
+        System.out.println("What is your name?");
+        Scanner scn = new Scanner(System.in);
+        String input_txt = scn.next();
+        System.out.println("Hello, " + input_txt + "!");
+
         Random rnd = new Random();
         System.out.println("Rolling the dice....");
 
